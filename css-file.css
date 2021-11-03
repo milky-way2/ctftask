@@ -1,0 +1,90 @@
+.login-page {
+    text-align: center;
+    color:#000000;
+    padding-top:30px;
+    margin-top:100px;
+}
+h1 {
+position: relative;
+z-index: 2000;
+    font-family:-apple-system,Algerian, Helvetica, sans-serif;
+    border-radius: 50%;
+    border:5px dashed transparent;
+    animation: glow 1s ease-in-out infinite alternate;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
+font-size:65px;
+}
+@keyframes glow {
+    from {
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
+    }
+    to {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #0073e6, 0 0 40px #0073e6, 0 0 50px #0073e6, 0 0 60px #0073e6, 0 0 70px #0073e6;
+    }
+  }
+h2 {
+    position: relative;
+z-index: 2000;
+    color:#070514eb;
+font-weight: bold;
+font-size: 25px;;
+}
+body {
+     /* background-image: url(https://cdn.pixabay.com/photo/2020/05/28/15/56/digitization-5231610_960_720.jpg); */
+    background-image: url(https://wallpaperaccess.com/full/316894.jpg);
+    /* background-image: url(https://images.unsplash.com/photo-1513151233558-d860c5398176?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80); */
+    /* background-image: url(https://cdn.pixabay.com/photo/2018/06/19/10/02/internet-3484139_960_720.jpg); */
+    /* background-image: url(https://cdn.pixabay.com/photo/2018/09/16/22/08/software-3682509_960_720.jpg); */
+    /* background-image: url(https://cdn.pixabay.com/photo/2020/05/07/03/58/digitization-5140066_960_720.jpg); */
+    /* background-image: url(https://cdn.pixabay.com/photo/2018/05/30/08/43/binary-3441010_960_720.jpg); */
+    /* background-image: url(https://cdn.pixabay.com/photo/2015/07/27/08/10/monitor-862116_960_720.jpg); */
+    /* background-image: url(https://cdn.pixabay.com/photo/2014/05/27/23/32/matrix-356024_960_720.jpg); */
+    /* background-image: url(https://cdn.pixabay.com/photo/2012/10/29/15/36/ball-63527_960_720.jpg); */
+    /* background-image: url(https://cdn.pixabay.com/photo/2014/10/05/19/02/binary-code-475664_960_720.jpg); */
+    /* background-image: url(https://cdn.pixabay.com/photo/2016/04/04/14/12/monitor-1307227_960_720.jpg); */
+    /* background-image: url(https://t4.ftcdn.net/jpg/01/68/76/91/360_F_168769164_03XQpPasIOEt8h0NjdQNCIYnuv7Ux0nn.jpg); */
+    /* background-image: url(https://t3.ftcdn.net/jpg/01/68/76/94/360_F_168769418_GHALsqlIr8jlG6iIhIfuSPOr2hnWk53r.jpg); */
+    /* background-image: url(https://media.istockphoto.com/photos/capture-the-flag-picture-id1250701216); */
+    /* background-image: url(https://media.istockphoto.com/photos/digital-security-concept-picture-id1289956604?b=1&k=20&m=1289956604&s=170667a&w=0&h=fpkFDlqRrw_IzsQpZkuYqfgCUw7VMemUT8IuCH4-e9w=); */
+background-size: cover;
+  background-repeat: no-repeat;
+    opacity:1;
+}
+img {
+    height:300px;
+    margin-left:auto;
+    margin-right: auto;
+    width:50%;
+    display:block;
+    float:top;
+    border-radius: 25px;
+    border:2px dotted #85ecd0;
+}
+.flag {
+    position: relative;
+z-index: 2000;
+border-radius: 60px;
+border:2px dotted #85ecd0 transparent;
+margin-left: 400px;
+margin-right: 400px;
+margin-top:35px;
+display:block; 
+text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px rgb(40, 6, 235), 0 0 20px rgb(40, 6, 235), 0 0 25px rgb(40, 6, 235), 0 0 30px rgb(40, 6, 235), 0 0 35px rgb(40, 6, 235), 0 0 40px rgb(40, 6, 235);
+ animation: live 1s ease-in-out infinite alternate; 
+}
+@keyframes live {
+    from {
+        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px rgb(40, 6, 235), 0 0 20px rgb(40, 6, 235), 0 0 25px rgb(40, 6, 235), 0 0 30px rgb(40, 6, 235), 0 0 35px rgb(40, 6, 235), 0 0 40px rgb(40, 6, 235);
+    }
+    to {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px rgb(40, 6, 235), 0 0 40px rgb(157, 85, 129), 0 0 50px rgb(40, 6, 235), 0 0 60px rgb(40, 6, 235), 0 0 70px rgb(40, 6, 235), 0 0 80px rgb(40, 6, 235);
+    }
+    
+}
+em {
+    color:rgb(239 242 6);
+    font-weight:bold;
+    font-size:30px;
+}
+/* .login-page
+} */
