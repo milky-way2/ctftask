@@ -88,7 +88,7 @@ em {
 }
 /* .login-page
 } */
-button {
+.btn {
     /* background-color: #0073e6;
 display: flexbox;
 top: 50%;
@@ -103,4 +103,17 @@ background: -webkit-linear-gradient(#e5f4f9,#b2e0ef,#7fcce5,#0089b7,#0099cc,#b2e
 background: linear-gradient(#e5f4f9,#b2e0ef,#7fcce5,#0089b7,#0099cc,#b2e0ef);
 font-weight: bold;
 font-size: 20px;
+transition: 0.3s;
+cursor: pointer;
+box-shadow: 0 8px #999;
+}
+.btn:hover{
+background: red;
+color: white; 
+
+}
+.btn:active {
+    background: blueviolet;
+    box-shadow: 0 5px #666;
+    transform:translateY(4px)
 }
