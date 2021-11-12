@@ -88,3 +88,19 @@ em {
 }
 /* .login-page
 } */
+button {
+    /* background-color: #0073e6;
+display: flexbox;
+top: 50%;
+border-radius: 10px; */
+border-radius: 30px;
+text-transform: uppercase;
+color: white;
+background: #0099cc;
+background: -moz-linear-gradient(#e5f4f9,#b2e0ef,#7fcce5,#0089b7,#0099cc,#b2e0ef);
+background: -o-linear-gradient(#e5f4f9,#b2e0ef,#7fcce5,#0089b7,#0099cc,#b2e0ef);
+background: -webkit-linear-gradient(#e5f4f9,#b2e0ef,#7fcce5,#0089b7,#0099cc,#b2e0ef);
+background: linear-gradient(#e5f4f9,#b2e0ef,#7fcce5,#0089b7,#0099cc,#b2e0ef);
+font-weight: bold;
+font-size: 20px;
+}
